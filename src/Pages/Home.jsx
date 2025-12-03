@@ -117,14 +117,14 @@ const Home = () => {
         <section className='max-w-[1300px] m-auto'>
           <p className='md:w-[300px] text-3xl font-bold mb-5'>Из чего состоят наши строения?</p>
           <div className='flex md:justify-between flex-col md:flex-row'>
-            <div className='md:w-[47%] p-5 bg-white'>
+            <div className='md:w-[47%] p-5 text-black bg-white'>
               <div className='flex justify-between'>
                 <p className='text-xl font-bold'>Создание 3D-макета</p>
                 <img className='w-50 mt-[-80px]' src={img4} alt="" />
               </div>
               <p>Это визуализация строения через экран гаджета. Макет создается индивидуально для клиента. Главная задача 3D-визуализации: учесть все детали в разработке и показать конечный вид проекта в оригинальном цвете и размере, используя актуальные материалы и наполнение внутри.</p>
             </div>
-            <div className='md:w-[47%] p-5 bg-white mt-15 md:mt-0'>
+            <div className='md:w-[47%] p-5 text-black bg-white mt-15 md:mt-0'>
               <div className='flex justify-between'>
                 <p className='text-xl font-bold'>Создание 3D-макета</p>
                 <img className='w-50 mt-[-80px]' src={img4} alt="" />
@@ -133,14 +133,14 @@ const Home = () => {
             </div>
           </div>
           <div className='flex md:justify-between mt-15 flex-col md:flex-row'>
-            <div className='md:w-[47%] p-5 bg-white'>
+            <div className='md:w-[47%] p-5 text-black bg-white'>
               <div className='flex justify-between'>
                 <p className='text-xl font-bold'>Создание 3D-макета</p>
                 <img className='w-50 mt-[-80px]' src={img4} alt="" />
               </div>
               <p>Это визуализация строения через экран гаджета. Макет создается индивидуально для клиента. Главная задача 3D-визуализации: учесть все детали в разработке и показать конечный вид проекта в оригинальном цвете и размере, используя актуальные материалы и наполнение внутри.</p>
             </div>
-            <div className='md:w-[47%] p-5 bg-white mt-15 md:mt-0'>
+            <div className='md:w-[47%] p-5 text-black bg-white mt-15 md:mt-0'>
               <div className='flex justify-between'>
                 <p className='text-xl font-bold'>Создание 3D-макета</p>
                 <img className='w-50 mt-[-80px]' src={img4} alt="" />
