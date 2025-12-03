@@ -77,22 +77,22 @@ const Layout = () => {
                 </div>
                 <div className='flex flex-col gap-3 items-center md:flex-row md:justify-between max-w-[1300px] m-auto'>
                     <div className='md:w-[230px] flex flex-col gap-2 items-center md:items-start'>
-                        <p>Дома	из	профилированого	бруса</p>
+                        <Link to={'/'}><p>Дома	из	профилированого	бруса</p></Link>
                         <p className='hidden md:flex'>Дома	из	оцилиндрованого	бруса</p>
                         <p className='hidden md:flex'>Каркасные	дома</p>
                         <p className='hidden md:flex'>Дома	из	блока</p>
                     </div>
                     <div className=' flex flex-col gap-2 items-center md:items-start'>
-                        <p>Базы	отдыха</p>
+                        <Link to={'/catalog'}><p>Базы	отдыха</p></Link>
                         <p className='hidden md:flex'>Гостинницы</p>
                         <p className='hidden md:flex'>Рестораны</p>
                         <p className='hidden md:flex'>Кафе</p>
                         <p className='hidden md:flex'>Магазины</p>
                     </div>
                     <div className='flex flex-col gap-2 items-center md:items-start'>
-                        <p>Деревянные	бани</p>
+                        <Link to={'/about'}><p>Деревянные	бани</p></Link>
                         <p className='hidden md:flex'>Беседки</p>
-                        <p>Альтанки</p>
+                        <Link to={'/contact'}><p>Альтанки</p></Link>
                         <p className='hidden md:flex'>Детские	игровые	площадки</p>
                         <p>Гаражи</p>
                         <p className='hidden md:flex'>Деревянные	детские	домики</p>
