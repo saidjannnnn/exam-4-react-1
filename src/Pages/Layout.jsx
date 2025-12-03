@@ -99,6 +99,9 @@ const Layout = () => {
                         <p>Мангальные	зоны и	барбекю</p>
                         <p className='hidden md:flex'>Кухни</p>
                     </div>
+                    <div className='flex md:hidden'>
+                        <ModeToggle />
+                    </div>
                     <div>
                         <div className='flex flex-col items-center md:flex-row md:items-center gap-3'>
                             <img src={logo} alt="" />
